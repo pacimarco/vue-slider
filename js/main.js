@@ -49,6 +49,9 @@ var app = new Vue(
                 else {
                     this.currentSlide--;
                 }
+            },
+            setCurrentSlide(indice){
+                this.currentSlide = indice;
             }
         }
     }   
